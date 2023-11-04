@@ -1,0 +1,10 @@
+torch
+numpy
+matplotlib
+librosa
+scipy
+wave
+math
+cmath
+copy
+nlpaug
