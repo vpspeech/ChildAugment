@@ -17,3 +17,4 @@ SpeechBrain is released under the Apache License, version 2.0. The Apache licens
 
 # References:
 We have utilized the utility functions in the Functions.py from https://github.com/hcy71o/LPC_Speech_Synthesis
+We modify the ECAPA-TDNN training script published in Speechbrain (https://github.com/speechbrain/speechbrain/blob/develop/recipes/VoxCeleb/SpeakerRec/train_speaker_embeddings.py)
