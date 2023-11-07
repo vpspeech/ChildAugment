@@ -1,6 +1,7 @@
 # LPC_SWP_FEP-BWP
 Codes for LPC Segmental Warping Perturbations (LPC-SWP) and Formant Energy Bandwidth (FEP-BWP) Perturbations proposed in our under-review JASA paper: 
-# Vishwanath Pratap Singh, Md Sahidullah, Tomi Kinnunen, "ChildAugment: Data Augmentation Methods for Zero-Resource Children’s Speaker Verification", The Journal of the Acoustical Society of America (under review).
+
+Vishwanath Pratap Singh, Md Sahidullah, Tomi Kinnunen, "ChildAugment: Data Augmentation Methods for Zero-Resource Children’s Speaker Verification", The Journal of the Acoustical Society of America (under review).
 
 # How to use:
 
