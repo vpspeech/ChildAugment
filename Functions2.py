@@ -295,7 +295,8 @@ def synthesis_slpcw( signal,sr, window, p, overlap, c=0.68, th=0.3):
                             angle_new = angle
                         rts[i] = complex(mag*cmath.cos(angle_new),mag*cmath.sin(angle_new));
                     A_new = np.poly(rts)
-                    w,h = scipy.signal.freqz([0.02], A_new, worN=length, fs = sr)
+                    A_new2 = np.insert(-A_new, 0, 1)    
+                    w,h = scipy.signal.freqz([0.05], A_new2, worN=length, fs = sr)
                     #plt.plot(np.log(abs(h)))
                     F_excitation = np.fft.fft(error1, length)  
                     F_result = F_excitation*h
@@ -360,7 +361,8 @@ def synthesis_slpcw_fep_bwp( signal,sr, window, p, overlap, c=0.68, th=0.3):
                             angle_new = angle
                         rts[i] = complex(mag*cmath.cos(angle_new),mag*cmath.sin(angle_new));
                     A_new = np.poly(rts)
-                    w,h = scipy.signal.freqz([0.02], A_new, worN=length, fs = sr)
+                    A_new2 = np.insert(-A_new, 0, 1)    
+                    w,h = scipy.signal.freqz([0.05], A_new2, worN=length, fs = sr)
                     #plt.plot(np.log(abs(h)))
                     F_excitation = np.fft.fft(error1, length)
                     F_result = F_excitation*h
