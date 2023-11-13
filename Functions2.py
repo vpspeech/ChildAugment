@@ -291,6 +291,8 @@ def synthesis_slpcw( signal,sr, window, p, overlap, c=0.68, th=0.3):
                                 angle_new = angle * warp3
                             elif int(get_formant_num(rts,ang)) == 4:
                                 angle_new = angle * warp4
+                            else: 
+                                angle_new = angle        
                         else:
                             angle_new = angle
                         rts[i] = complex(mag*cmath.cos(angle_new),mag*cmath.sin(angle_new));
@@ -357,6 +359,8 @@ def synthesis_slpcw_fep_bwp( signal,sr, window, p, overlap, c=0.68, th=0.3):
                                 angle_new = angle * warp3
                             elif int(get_formant_num(rts,ang)) == 4:
                                 angle_new = angle * warp4
+                            else: 
+                                angle_new = angle        
                         else:
                             angle_new = angle
                         rts[i] = complex(mag*cmath.cos(angle_new),mag*cmath.sin(angle_new));
