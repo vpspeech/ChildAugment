@@ -278,8 +278,8 @@ def synthesis_slpcw( signal,sr, window, p, overlap, c=0.68, th=0.3):
                     for i in range(len(rts)):
                         mag = abs(rts[i])
                         ##if magnitude very close to unit circle
-                        if mag > 0.18:
-                            mag = mag*0.09   
+                        if mag > 0.98:
+                            mag = mag*0.9   
                         angle = cmath.phase(rts[i])
                         ang = angle
                         if round(angle,2)%3.14 !=0:
@@ -345,8 +345,8 @@ def synthesis_slpcw_fep_bwp( signal,sr, window, p, overlap, c=0.68, th=0.3):
                     for i in range(len(rts)):
                         mag = abs(rts[i])
                         ##if magnitude very close to unit circle
-                        if mag > 0.18:
-                            mag = mag*0.09
+                        if mag > 0.98:
+                            mag = mag*0.9
                         mag = mag * mag_warp    
                         angle = cmath.phase(rts[i])
                         ang = angle
