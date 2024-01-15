@@ -1,5 +1,5 @@
 # CSLU Trial List
-We share the trail list containing gender and age information from CSLU kids corpus (https://catalog.ldc.upenn.edu/LDC2007S18) under the LDC User Agreement for Non-Members (https://catalog.ldc.upenn.edu/license/ldc-non-members-agreement.pdf)
+We share the trail list containing gender and age information in "trial_list_combined_with_age_gender_info" from CSLU kids corpus (https://catalog.ldc.upenn.edu/LDC2007S18) under the LDC User Agreement for Non-Members (https://catalog.ldc.upenn.edu/license/ldc-non-members-agreement.pdf)
 # LPC_SWP_FEP-BWP
 
 Codes for LPC Segmental Warping Perturbations (LPC-SWP) and Formant Energy Bandwidth (FEP-BWP) Perturbations proposed in our under-review JASA paper: 
