@@ -8,7 +8,7 @@ This work was partially supported by the Academy of Finland (Decision No. 349605
 
 # CSLU Trial List
 
-We share the trail list containing gender and age information in "trial_list_combined_with_age_gender_info" from CSLU kids corpus (https://catalog.ldc.upenn.edu/LDC2007S18) under under the Apache License, version 2.0. We do not share any audio from CSLU Kids corpus. We only share the trial list containing the list of utterances, age, and gender info.
+We share the trail list containing gender and age information in "trial_list_combined_with_age_gender_info" from CSLU kids corpus (https://catalog.ldc.upenn.edu/LDC2007S18) under under the Apache License, version 2.0. We do not share any audio from CSLU Kids corpus. We only share the trial list containing the list of utterances, age, and gender info. Under Apache License, Version 2.0 the metadata is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
 
 # Details of different fields in "trial_list_combined_with_age_gender_info":
 
