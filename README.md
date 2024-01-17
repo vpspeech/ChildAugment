@@ -11,7 +11,9 @@ This work was partially supported by the Academy of Finland (Decision No. 349605
 We share the trail list containing gender and age information in "trial_list_combined_with_age_gender_info" from CSLU kids corpus (https://catalog.ldc.upenn.edu/LDC2007S18) under under the Apache License, version 2.0.
 
 Details of different fields in the trial list:
+
 **utterance-1:** enrollment utterance
+
 **utterance-2:** test utterance
 
 # LPC_SWP_FEP-BWP
