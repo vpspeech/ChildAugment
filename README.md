@@ -20,7 +20,7 @@ Details of different fields in the trial list:
 
 **type-2:** linguistic content of utterance-2
 
-**target/non-target:** 0: non-target pair, 1: target pair.
+**target/non-target:** 0: non-target pair, 1: target pair
 
 **age-1:** age of speaker in utterance-1
 
