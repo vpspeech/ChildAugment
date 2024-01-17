@@ -22,13 +22,13 @@ Details of different fields in the trial list:
 
 **target/non-target:** 0: non-target pair, 1: target pair
 
-**age-1:** age of speaker in utterance-1
+**age-1:** grade of speaker in utterance-1
 
-**age-2:** age of speaker in utterance-2
+**age-2:** grade of speaker in utterance-2
 
-**gender-1:** gender of utterance-1
+**gender-1:** gender of speaker in utterance-1
 
-**gender-2:** gender of utterance-2
+**gender-2:** gender of speaker in utterance-2
 
 # LPC_SWP_FEP-BWP
 
