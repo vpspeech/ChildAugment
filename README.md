@@ -39,7 +39,7 @@ We share the trail list containing gender and age information in **CSLU_Trial_Fi
 
 # Preparing SpeechBrain Style Trial
 
-SpeechBrain supports the specific structure of the data directory structure. We provide the script for preparing SpeechBrain style data directory structure below:
+SpeechBrain supports the specific data directory structure. We provide the script for preparing SpeechBrain style data directory structure below:
 
 1. cd CSLU_Trial_Finetune_Metadata
 2. python prepare_vox_style_dir.py
