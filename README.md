@@ -1,3 +1,35 @@
+# Publication
+
+Vishwanath Pratap Singh, Md Sahidullah, Tomi Kinnunen, "ChildAugment: Data Augmentation Methods for Zero-Resource Children's Speaker Verification" the journal of acoustical society of america (JASA).
+
+# Project
+
+This work was partially supported by the Academy of Finland (Decision No. 349605, project “SPEECHFAKES”).
+
+# CSLU Trial List
+
+We share the trail list containing gender and age information in "trial_list_combined_with_age_gender_info" from CSLU kids corpus (https://catalog.ldc.upenn.edu/LDC2007S18) under under the Apache License, version 2.0. We do not share any audio from CSLU Kids corpus. We only provide the metadata in the trial list containing the list of utterances, age, and gender information. Under Apache License, Version 2.0 the metadata is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+# Documentation on CSLU Trial List:
+
+**utterance-1:** enrollment utterance
+
+**utterance-2:** test utterance
+
+**type-1:** linguistic content of utterance-1 [word: single word, sent: sentence, alphanum: alpha numeric sentence]
+
+**type-2:** linguistic content of utterance-2
+
+**target/non-target:** 0: non-target pair, 1: target pair
+
+**age-1:** grade of speaker in utterance-1
+
+**age-2:** grade of speaker in utterance-2
+
+**gender-1:** gender of speaker in utterance-1
+
+**gender-2:** gender of speaker in utterance-2
+
 # LPC_SWP_FEP-BWP
 
 Codes for LPC Segmental Warping Perturbations (LPC-SWP) and Formant Energy Bandwidth (FEP-BWP) Perturbations proposed in our under-review JASA paper: 
