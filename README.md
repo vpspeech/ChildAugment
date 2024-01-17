@@ -6,11 +6,18 @@ Vishwanath Pratap Singh, Md Sahidullah, Tomi Kinnunen, "ChildAugment: Data Augme
 
 This work was partially supported by the Academy of Finland (Decision No. 349605, project “SPEECHFAKES”).
 
+# CSLU Evaluation and Developmental List
+
+1. **CSLU_Trial_Finetune_Metadata/test_utterances_good_42k_abs:** Contains 42521 utterances from 451 Girls and  542 Boys speaker. We use these utterances as a test set for preparing the trial pairs for evaluating ASV systems.
+2. **CSLU_Trial_Finetune_Metadata/dev_utterances_good_5k_abs:** Contains 5004 utterances from 60 Girls and  60 Boys speaker. We use these utterances as a developmental set for finetuning the scoring methods.
+
 # CSLU Trial List
 
-We share the trail list containing gender and age information in "trial_list_combined_with_age_gender_info" from CSLU kids corpus (https://catalog.ldc.upenn.edu/LDC2007S18) under under the Apache License, version 2.0. We do not share any audio from CSLU Kids corpus. We only provide the metadata in the trial list containing the list of utterances, age, and gender information. Under Apache License, Version 2.0 the metadata is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+We share the trail list containing gender and age information in **CSLU_Trial_Finetune_Metadata/trial_list_combined_with_age_gender_abs** from CSLU kids corpus (https://catalog.ldc.upenn.edu/LDC2007S18) under under the Apache License, version 2.0. We do not share any audio from CSLU Kids corpus. We only provide the metadata in the trial list containing the list of utterances, age, and gender information. Under Apache License, Version 2.0 the metadata is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
 
 # Documentation on CSLU Trial List:
+
+**<your_cslu_dir>:** Replace with the path of your downloaded CSLU Kids data directory
 
 **utterance-1:** enrollment utterance
 
@@ -29,6 +36,15 @@ We share the trail list containing gender and age information in "trial_list_com
 **gender-1:** gender of speaker in utterance-1
 
 **gender-2:** gender of speaker in utterance-2
+
+# Preparing SpeechBrain Style Trial
+
+SpeechBrain supports the specific structure of the data directory structure. We provide the script for preparing SpeechBrain style data directory structure below:
+
+1. cd CSLU_Trial_Finetune_Metadata
+2. python prepare_vox_style_dir.py
+3. python prepare_sb_style_trial.py > trial_list_combined_with_age_gender_vox_style
+4. Now,  trial_list_combined_with_age_gender_vox_style can be used for obtaining the EER in SpeechBrain
 
 # LPC_SWP_FEP-BWP
 
