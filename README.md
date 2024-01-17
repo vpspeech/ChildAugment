@@ -8,8 +8,8 @@ This work was partially supported by the Academy of Finland (Decision No. 349605
 
 # CSLU Evaluation and Developmental List
 
-1. **CSLU_Trial_Finetune_Metadata/test_utterances_good_42k_abs:** Contains 42521 utterances from 451 Girls and  542 Boys speaker. We use these utterances as a test set for preparing the trial pairs for evaluating ASV systems.
-2. **CSLU_Trial_Finetune_Metadata/dev_utterances_good_5k_abs:** Contains 5004 utterances from 60 Girls and  60 Boys speaker. We use these utterances as a developmental set for finetuning the scoring methods.
+1. **CSLU_Trial_Finetune_Metadata/test_utterances_good_42k_abs:** Contains 42521 utterances from 451 Girls and  542 Boys speaker. We use these utterances as an Evaluation set for preparing the trial pairs for evaluating ASV systems.
+2. **CSLU_Trial_Finetune_Metadata/dev_utterances_good_5k_abs:** Contains 5004 utterances from 60 Girls and  60 Boys speaker. We use these utterances as a Developmental set for finetuning the scoring methods.
 
 # CSLU Trial List
 
