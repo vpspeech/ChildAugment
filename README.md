@@ -1,13 +1,18 @@
 # Publication
 
-Vishwanath Pratap Singh, Md Sahidullah, Tomi Kinnunen, "ChildAugment: Data Augmentation Methods for Zero-Resource Children's Speaker Verification" the journal of acoustical society of america (JASA).
+**Vishwanath Pratap Singh, Md Sahidullah, Tomi Kinnunen, "ChildAugment: Data Augmentation Methods for Zero-Resource Children's Speaker Verification" the journal of acoustical society of america (JASA).**
 
 # Project
 
-This work was partially supported by Academy of Finland (Decision No. 349605, project “SPEECHFAKES”).
+This work was partially supported by the Academy of Finland (Decision No. 349605, project “SPEECHFAKES”).
 
 # CSLU Trial List
+
 We share the trail list containing gender and age information in "trial_list_combined_with_age_gender_info" from CSLU kids corpus (https://catalog.ldc.upenn.edu/LDC2007S18) under under the Apache License, version 2.0.
+
+Details of different fields in the trial list:
+**utterance-1:** enrollment utterance
+**utterance-2:** test utterance
 
 # LPC_SWP_FEP-BWP
 
