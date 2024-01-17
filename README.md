@@ -1,6 +1,6 @@
 # Publication
 
-**Vishwanath Pratap Singh, Md Sahidullah, Tomi Kinnunen, "ChildAugment: Data Augmentation Methods for Zero-Resource Children's Speaker Verification" the journal of acoustical society of america (JASA).**
+Vishwanath Pratap Singh, Md Sahidullah, Tomi Kinnunen, "ChildAugment: Data Augmentation Methods for Zero-Resource Children's Speaker Verification" the journal of acoustical society of america (JASA).
 
 # Project
 
