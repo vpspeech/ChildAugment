@@ -16,9 +16,19 @@ Details of different fields in the trial list:
 
 **utterance-2:** test utterance
 
-**type-1:** linguistic content of utterance-1 [word: single worst, sent: sentence, alphanum: alpha numeric sentence]
+**type-1:** linguistic content of utterance-1 [word: single word, sent: sentence, alphanum: alpha numeric sentence]
 
 **type-2:** linguistic content of utterance-2
+
+**target/non-target:** 0: non-target pair, 1: target pair.
+
+**age-1:** age of speaker in utterance-1
+
+**age-2:** age of speaker in utterance-2
+
+**gender-1:** gender of utterance-1
+
+**gender-2:** gender of utterance-2
 
 # LPC_SWP_FEP-BWP
 
