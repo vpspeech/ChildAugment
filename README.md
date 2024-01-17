@@ -16,6 +16,10 @@ Details of different fields in the trial list:
 
 **utterance-2:** test utterance
 
+**type-1:** linguistic content of utterance-1 [word: single worst, sent: sentence, alphanum: alpha numeric sentence]
+
+**type-2:** linguistic content of utterance-2
+
 # LPC_SWP_FEP-BWP
 
 Codes for LPC Segmental Warping Perturbations (LPC-SWP) and Formant Energy Bandwidth (FEP-BWP) Perturbations proposed in our under-review JASA paper: 
