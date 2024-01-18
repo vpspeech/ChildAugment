@@ -6,6 +6,15 @@ Vishwanath Pratap Singh, Md Sahidullah, Tomi Kinnunen, "ChildAugment: Data Augme
 
 This work was partially supported by the Academy of Finland (Decision No. 349605, project “SPEECHFAKES”).
 
+# Citation
+@book{singhchildaugment,
+ author = "Vishwanath Pratap Singh and Md Sahidullah and Tomi Kinnunen",
+ title = "ChildAugment: Data Augmentation Methods for Zero-Resource Children's Speaker Verification",
+ publisher = "the journal of acoustical society of America ({JASA})",
+ year = 2024
+}
+
+
 # CSLU Evaluation and Developmental List
 
 1. **CSLU_Trial_Finetune_Metadata/test_utterances_good_42k_abs:** Contains 42521 utterances from 451 Girls and  542 Boys speaker. We use these utterances as an Evaluation set for preparing the trial pairs for evaluating ASV systems.
