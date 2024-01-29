@@ -3,7 +3,7 @@ Users can utilize the protocol under the strict licensing terms specified at htt
 
 # Project
 
-This work was partially supported by the Academy of Finland (Decision No. 349605, project [“SPEECHFAKES”] ( https://uefconnect.uef.fi/en/group/speechfakes-generalized-voice-anti-spoofing-and-voice-biometrics/)).
+This work was partially supported by the Academy of Finland (Decision No. 349605, project [“SPEECHFAKES”]( https://uefconnect.uef.fi/en/group/speechfakes-generalized-voice-anti-spoofing-and-voice-biometrics/)).
 
 # Citation
 @book{singhchildaugment, 
