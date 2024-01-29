@@ -1,5 +1,5 @@
 # License for using CSLU Protocols
-This repository provides a reference protocol for benchmarking zero- and limited-resource automatic speaker verification (ASV) systems on the CSLU Kids corpus (LDC2007S18). Please note that this repository contains only the information for partitioning the original LDC audio files into trial lists (and a smaller set for optional training or fine-tuning purposes). Therefore, if you would like to use our ASV protocol, you are required to licence and purchase the CSLU Kids corpus (audio files) through LDC. Users can utilize the protocol under the strict licensing terms specified at https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/cslu.pdf, limiting its use exclusively to non-commercial linguistic education and research. Additionally, users are required to independently license LDC2007S18 directly from the Linguistic Data Consortium (LDC) at https://catalog.ldc.upenn.edu/LDC2007S18 before employing the protocol.
+This repository provides a reference protocol for benchmarking zero- and limited-resource automatic speaker verification (ASV) systems on the CSLU Kids corpus (LDC2007S18). Please note that this repository contains only the information for partitioning the original LDC audio files into trial lists (and a smaller set for optional training or fine-tuning purposes). Therefore, if you would like to use our ASV protocol, you need to have a copy of the CSLU Kids corpus itself (which contains the audio files). The CSLU Kids corpus can be purchased through LDC, following their licencing conditions. Users can utilize the protocol under the strict licensing terms specified at https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/cslu.pdf, limiting its use exclusively to non-commercial linguistic education and research. Additionally, users are required to independently license LDC2007S18 directly from the Linguistic Data Consortium (LDC) at https://catalog.ldc.upenn.edu/LDC2007S18 before employing the protocol.
 
 # Project
 
@@ -69,7 +69,7 @@ Step-3: Run the following command to train ECAPA-TDNN using LPC-SWP and FEP-BWP 
    
         python train_speaker_embeddings_pitch_mod_vtlp_lpcswp_bwp_fep_v2.py hparams/train_ecapa_tdnn.yaml
 
-# License
+# Licence for the reference ASV models
 We modify and publish the ECAPA-TDNN script in SpeechBrain under the Apache License, version 2.0. 
 SpeechBrain is released under the Apache License, version 2.0. The Apache license is a popular BSD-like license. SpeechBrain can be redistributed for free, even for commercial purposes, although you can not take off the license headers (and under some circumstances, you may have to distribute a license document). Apache is not a viral license like the GPL, which forces you to release your modifications to the source code. Note that this project has no connection to the Apache Foundation, other than that we use the same license terms.
 
