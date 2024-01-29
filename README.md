@@ -1,6 +1,5 @@
-# Publication
-
-Vishwanath Pratap Singh, Md Sahidullah, Tomi Kinnunen, "ChildAugment: Data Augmentation Methods for Zero-Resource Children's Speaker Verification" the journal of acoustical society of america (JASA).
+# License for using CSLU Protocols
+Users can utilize the protocol under the strict licensing terms specified at https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/cslu.pdf, limiting its use exclusively to non-commercial linguistic education and research. Additionally, users are required to independently license LDC2007S18 directly from the Linguistic Data Consortium (LDC) at https://catalog.ldc.upenn.edu/LDC2007S18 before employing the protocol.
 
 # Project
 
