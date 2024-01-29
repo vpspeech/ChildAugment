@@ -53,7 +53,7 @@ SpeechBrain supports the specific data directory structure. We provide the scrip
 3. python prepare_sb_style_trial.py > trial_list_combined_with_age_gender_vox_style
 4. Now, **trial_list_combined_with_age_gender_vox_style** can be used for obtaining the EER in SpeechBrain
 
-# LPC_SWP_FEP-BWP
+# ChildAugment
 
 Codes for LPC Segmental Warping Perturbations (LPC-SWP) and Formant Energy Bandwidth (FEP-BWP) Perturbations proposed in our under-review JASA paper: 
 
