@@ -7,9 +7,13 @@ This work was partially supported by the Academy of Finland (Decision No. 349605
 
 # Citation
 @book{singhchildaugment, 
+
 author = "Vishwanath Pratap Singh and Md Sahidullah and Tomi Kinnunen", 
+
 title = "ChildAugment: Data Augmentation Methods for Zero-Resource Children's Speaker Verification", 
+
 publisher = "the journal of acoustical society of America ({JASA}) (under review)",
+
 year = 2024 }
 
 
