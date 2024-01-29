@@ -6,12 +6,11 @@ Users can utilize the protocol under the strict licensing terms specified at htt
 This work was partially supported by the Academy of Finland (Decision No. 349605, project “SPEECHFAKES”).
 
 # Citation
-@book{singhchildaugment,
- author = "Vishwanath Pratap Singh and Md Sahidullah and Tomi Kinnunen",
- title = "ChildAugment: Data Augmentation Methods for Zero-Resource Children's Speaker Verification",
- publisher = "the journal of acoustical society of America ({JASA})",
- year = 2024
-}
+@book{singhchildaugment, 
+author = "Vishwanath Pratap Singh and Md Sahidullah and Tomi Kinnunen", 
+title = "ChildAugment: Data Augmentation Methods for Zero-Resource Children's Speaker Verification", 
+publisher = "the journal of acoustical society of America ({JASA}) (under review)",
+year = 2024 }
 
 
 # CSLU Evaluation and Developmental List
