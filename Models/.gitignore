@@ -1,0 +1,5 @@
+Models/baseline-3.5/optimizer.ckpt
+Models/proposed-3.11/optimizer.ckpt
+Models/baseline-1.5/optimizer.ckpt
+Models/baseline-2.5/optimizer.ckpt
+Models/baseline-3.5-myST/optimizer.ckpt
